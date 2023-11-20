@@ -9,12 +9,24 @@ import FAQs from './FAQs/FAQs';
 const Main = () => {
   return (
     <div>
-      <Home />
-      <AboutUs />
-      <Industries />
-      <Team />
-      <Testimonials />
-      <FAQs />
+      <div id='Home'>
+        <Home />
+      </div>
+      <div id='AboutUs'>
+        <AboutUs />
+      </div>
+      <div id='Industries'>
+        <Industries />
+      </div>
+      <div id='Team'>
+        <Team />
+      </div>
+      <div id='Testimonials'>
+        <Testimonials />
+      </div>
+      <div id='FAQs'>
+        <FAQs />
+      </div>
     </div>
   );
 };

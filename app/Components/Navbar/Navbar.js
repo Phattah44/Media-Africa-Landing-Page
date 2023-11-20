@@ -7,22 +7,22 @@ const Navbar = () => {
       <div className=''>
         <ul className='flex gap-x-4 text-center align-middle p-3'>
           <li className='text-xs font-semibold text-[#F4F6FD] hover:text-[#7d7e7f]'>
-            <a href='/#'>HOME</a>
+            <a href='#Home'>HOME</a>
           </li>
           <li className='text-xs font-semibold text-[#F4F6FD] hover:text-[#7d7e7f]'>
-            <a href='/#'>ABOUT US</a>
+            <a href='#AboutUs'>ABOUT US</a>
           </li>
           <li className='text-xs font-semibold text-[#F4F6FD] hover:text-[#7d7e7f]'>
-            <a href='/#'>INDUSTRIES</a>
+            <a href='#Industries'>INDUSTRIES</a>
           </li>
           <li className='text-xs font-semibold text-[#F4F6FD] hover:text-[#7d7e7f]'>
-            <a href='/#'>TEAM</a>
+            <a href='#Team'>TEAM</a>
           </li>
           <li className='text-xs font-semibold text-[#F4F6FD] hover:text-[#7d7e7f]'>
-            <a href='/#'>TESTIMONIAL</a>
+            <a href='#Testimonials'>TESTIMONIAL</a>
           </li>
           <li className='text-xs font-semibold text-[#F4F6FD] hover:text-[#7d7e7f]'>
-            <a href='/#'>FAQs</a>
+            <a href='#FAQs'>FAQs</a>
           </li>
         </ul>
       </div>
