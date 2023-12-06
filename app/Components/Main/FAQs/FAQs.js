@@ -35,7 +35,7 @@ const Accordion = () => {
   ];
   return (
     <div className='bg-[#F4F6FD]'>
-      <div className='p-10 m-auto w-4/6 '>
+      <div className='p-10 w-full m-auto md:w-4/6 '>
         <h1 className='text-[#040C5E]  text-center text-xl'>FAQs</h1>
         <p className='text-[#040C5E] text-center text-xs'>
           You got questions? we have answers.

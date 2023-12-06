@@ -8,13 +8,15 @@ const AccordionUi = ({ title, content }) => {
   return (
     <div className='p-2'>
       <div
-        className='flex justify-between text-[#040C5E] text-xs'
+        className='flex justify-between text-[#040C5E] text-sm'
         onClick={() => setIsActive(!isActive)}
       >
         <div className='font-semibold'>{title}</div>
         <div>{isActive ? '-' : '+'}</div>
       </div>
-      {isActive && <div className='text-[#2b306b] text-xs'>{content}</div>}
+      {isActive && (
+        <div className='text-[#2b306b] text-xs md:text-sm'>{content}</div>
+      )}
     </div>
   );
 };

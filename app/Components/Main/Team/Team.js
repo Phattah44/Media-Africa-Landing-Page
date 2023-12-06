@@ -2,7 +2,7 @@ import React from 'react';
 
 const Team = () => {
   return (
-    <div className='bg-[#F4F6FD] p-10'>
+    <div className='bg-[#F4F6FD] p-5 md:p-10'>
       <h1 className='text-[#040C5E] text-center font-bold p-5'>OUR TEAM</h1>
       <p className='text-[#040C5E] text-center mb-5'>
         Each member that joins our team is passionate about the Web3 space,
@@ -11,11 +11,11 @@ const Team = () => {
         specialists equipped that know how to promote your crypto project and
         build your ideal community to get the results you desire.
       </p>
-      <div className='flex '>
+      <div className='flex flex-col items-center md:flex md:flex-row'>
         <div className='flex flex-col w-[300px]'>
           <img src='./dol.jpeg' className='rounded-full p-2' />
           <p className='text-[#040C5E] text-center text-sm font-bold'>
-            Adedolapo Adeagbo
+            Ade Muyiwa
           </p>
           <p className='text-[#040C5E] text-center mb-5 text-xs'>CEO</p>
         </div>
@@ -29,7 +29,7 @@ const Team = () => {
         <div className='flex flex-col w-[300px]'>
           <img src='./yinks.jpeg' className='rounded-full p-2' />
           <p className='text-[#040C5E] text-center text-sm font-bold'>
-            Adeagbo Adeyinka
+            Adejuwon Yinka
           </p>
           <p className='text-[#040C5E] text-center mb-5 text-xs'>CMO</p>
         </div>
@@ -45,7 +45,7 @@ const Team = () => {
         <div className='flex flex-col w-[300px]'>
           <img src='./kimani.jpeg' className='rounded-full p-2' />
           <p className='text-[#040C5E] text-center text-sm font-bold'>
-            AbdulMalik{' '}
+            AbdulMalik
           </p>
           <p className='text-[#040C5E] text-center mb-5 text-xs'>
             Community Manager

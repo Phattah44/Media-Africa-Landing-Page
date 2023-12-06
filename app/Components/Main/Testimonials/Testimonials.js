@@ -14,10 +14,10 @@ export default class Testimonials extends Component {
         showStatus={false}
         autoPlay={true}
         interval={6100}
-        className='w-[500px] mx-auto p-5'
+        className='md:w-[500px] mx-auto p-5'
       >
         <div className=''>
-          {/* <img src='carousel1.png' className='w-[100px]' /> */}
+          {/* <img src='carousel1.png' className='h-[100px] w-10' /> */}
           <div>
             <h3 className='text-sm text-[#414141] font-semibold'>
               Adara Williams
@@ -35,7 +35,7 @@ export default class Testimonials extends Component {
           </div>
         </div>
         <div>
-          {/* <img src='carousel2.png' width='100px' /> */}
+          {/* <img src='carousel2.png' className='h-[100px] w-10' /> */}
           <div>
             <h3 className='text-sm text-[#414141] font-semibold'>
               Amosu Whenayon
@@ -49,7 +49,7 @@ export default class Testimonials extends Component {
           </div>
         </div>
         <div>
-          {/* <img src='carousel3.png' width='100px' /> */}
+          {/* <img src='carousel3.png' className='h-[100px] w-10' /> */}
           <h3 className='text-sm text-[#414141] font-semibold'>Kevin Evans</h3>
           <h4 className='text-xs text-[#414141]'>CEO, AfroVerse</h4>
           <p className='text-[#717171] text-xs'>
