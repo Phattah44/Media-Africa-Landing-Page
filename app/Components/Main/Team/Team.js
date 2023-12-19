@@ -56,9 +56,11 @@ const Team = () => {
         <p className='text-[#040C5E] align-middle text-sm font-bold'>
           BECOME ONE OF OUR SUCCESS STORIES
         </p>
-        <button className='text-[#414141] border-2 border-[#414141] w-[200px] text-xs font-bold p-3 hover:bg-[#ffc000] hover:text-[#040C5E] hover:border-[#040C5E]'>
-          GET A PROPOSAL
-        </button>
+        <a href='mailto:wasiuadegoke14@gmail.com'>
+          <button className='text-[#414141] border-2 border-[#414141] w-[200px] text-xs font-bold p-3 hover:bg-[#ffc000] hover:text-[#040C5E] hover:border-[#040C5E]'>
+            GET A PROPOSAL
+          </button>
+        </a>
       </div>
     </div>
   );

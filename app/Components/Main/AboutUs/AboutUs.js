@@ -10,7 +10,7 @@ const AboutUs = () => {
         <div className='w-full md:w-[50%] mx-auto flex flex-col gap-7'>
           <img src='./rocket.png' className='mx-auto h-44 md:h-[380px]' />
           <p className='text-sm text-[#040C5E] text-center md:text-lg w-[250px] mx-auto'>
-            Get ready to lunch into the African market with our world class
+            Get ready to launch into the African market with our world class
             campaigns
           </p>
         </div>
@@ -19,7 +19,7 @@ const AboutUs = () => {
             We're an African based agency
           </h1>
           <h1 className='text-sm text-[#040C5E] md:text-lg'>
-            Established in May 2019, Lunar Strategy has quickly risen to the
+            Established in May 2019, Media Africa has quickly risen to the
             forefront of the Blockchain marketing industry by establishing
             critical relationships with crypto industry influencers, role
             players, and thought leaders.
